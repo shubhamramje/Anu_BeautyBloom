@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anu BeautyBloom Makeup Studio</title>
+  <style>
+    :root{
+      --primary:#c2185b;
+      --secondary:#f8bbd0;
+      --dark:#2b2b2b;
+      --light:#fff;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:'Poppins',sans-serif;}
+ h1{
+  font-family: Brush Script MT;
+  
+ }
+    body{background:#faf7f9;color:var(--dark);line-height:1.6;}
+    header{
+      background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color:#fff;
+      padding:80px 20px;
+      text-align:center;
+    }
+    header h1{font-size:3rem;margin-bottom:10px;}
+    header p{font-size:1.2rem;max-width:700px;margin:auto;}
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 28px;
+      background:var(--primary);
+      color:#fff;
+      text-decoration:none;
+      border-radius:30px;
+      font-weight:600;
+    }
+    section{padding:60px 20px;max-width:1200px;margin:auto;}
+    .section-title{text-align:center;margin-bottom:40px;}
+    .section-title h2{font-size:2.2rem;color:var(--primary);}    
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px;}
+    .card{
+      background:#fff;
+      border-radius:16px;
+      box-shadow:0 10px 25px rgba(0,0,0,.08);
+      padding:25px;
+      transition:.3s;
+    }
+    .card:hover{transform:translateY(-6px);}    
+    .card h3{color:var(--primary);margin-bottom:10px;}
+    .price{font-weight:700;font-size:1.1rem;margin-top:10px;}
+    .note{font-size:.9rem;color:#555;margin-top:8px;}
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+    }
+    .gallery img{
+      width:100%;
+      height:260px;
+      object-fit:cover;
+      border-radius:16px;
+      box-shadow:0 8px 20px rgba(0,0,0,.1);
+    }
+    .terms li{margin-bottom:10px;}
+    footer{
+      background:var(--dark);
+      color:#fff;
+      padding:40px 20px;
+      text-align:center;
+    }
+    footer a{color:var(--secondary);text-decoration:none;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Anu_BeautyBloom Makeup Studio</h1>
+  <p>Professional Makeup Artist | Transforming You Into A Masterpiece ✨<br>Flawless, waterproof & camera‑ready looks for every occasion</p>
+  <a href="https://wa.me/916263840615" class="btn">Book Now on WhatsApp</a>
+</header>
+
+<section>
+  <div class="section-title">
+    <h2>Bridal Packages (All Inclusive)</h2>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <h3>HD Bridal Makeup</h3>
+      <p>Skin prep, high‑end makeup, hair styling, draping, lashes, lens & nail art.</p>
+      <div class="price">Rs - 8,000</div>
+    </div>
+    <div class="card">
+      <h3>Traditional HD Bridal Makeup</h3>
+      <p>Classic bridal elegance with premium HD products.</p>
+      <div class="price">Rs - 15,000</div>
+    </div>
+    <div class="card">
+      <h3>Signature Glass Skin Bridal Look</h3>
+      <p>Flawless glass‑like glow, waterproof & photo‑perfect.</p>
+      <div class="price">Rs - 18,000</div>
+    </div>
+    <div class="card">
+      <h3>Premium Airbrush Bridal Makeup</h3>
+      <p>Luxury airbrush finish for long‑lasting glam.</p>
+      <div class="price">Rs - 21,000</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2>Pre‑Wedding & Occasion Makeup</h2>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <h3>Engagement / Roka Makeup</h3>
+      <div class="price">Rs - 8,000</div>
+    </div>
+    <div class="card">
+      <h3>Reception Glam Look</h3>
+      <div class="price">Rs - 10,000</div>
+    </div>
+    <div class="card">
+      <h3>Sagan / Mehendi Makeup</h3>
+      <div class="price">Rs - 6,000</div>
+      <p class="note">Elegant & long‑lasting finish</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2>Party Makeup</h2>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <h3>Signature Party HD Makeup</h3>
+      <div class="price">Rs - 3,500</div>
+    </div>
+    <div class="card">
+      <h3>Light / Subtle Guest Makeup</h3>
+      <div class="price">Rs - 2,500</div>
+    </div>
+    <div class="card">
+      <h3>Group Booking (3+ Persons)</h3>
+      <div class="price">Rs - 2,000 / person</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2>Gallery</h2>
+  </div>
+  <div class="gallery">
+    <img src="./image/img1.PNG" />
+    <img src="./image/img2.PNG" />
+    <img src="./image/img3.PNG" />
+    <img src="./image/img6.PNG" />
+    <img src="./image/img7.PNG" />
+    <img src="./image/img8.PNG" />
+    <img src="./image/img9.PNG" />
+    <img src="./image/img4.PNG" />
+    <img src="./image/img10.PNG" />
+    <img src="./image/img11.PNG" />
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2>Add‑On Services</h2>
+  </div>
+  <div class="cards">
+    <div class="card"><h3>Hair Styling Only</h3><div class="price">Rs - 500 – 1,000</div></div>
+    <div class="card"><h3>Saree / Dupatta Draping</h3><div class="price">Rs - 350</div></div>
+    <div class="card"><h3>Eye Makeup Only</h3><div class="price">Rs - 799</div></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2>Terms & Conditions</h2>
+  </div>
+  <ul class="terms">
+    <li>20% advance payment required to book the date.</li>
+    <li>Travel & stay charges (if applicable) to be borne by the client.</li>
+    <li>Early morning appointments (before 6 AM) incured extra 1,000.</li>
+    <li>Advance is non‑refundable but adjustable with 1 week pirord notice.</li>
+  </ul>
+</section>
+
+<footer>
+  <p><strong>Contact for Bookings</strong></p>
+  <p>📍 Garhakota (Sagar)</p>
+  <p>📞 <a href="tel:6263840615">6263840615</a></p>
+  <p>📸 Instagram: <a href="https://instagram.com/anu_beautybloom">@anu_beautybloom</a></p>
+  <p style="margin-top:15px;">© Anu BeautyBloom Makeup Studio</p>
+</footer>
+
+</body>
+</html>
